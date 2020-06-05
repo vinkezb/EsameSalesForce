@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>LynxAcad</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Data_Fine__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Data_Inizio__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Indirizzo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Nome_Relatore__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Numero_Iscritti__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Stanza__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Luogo__c.Capacita_massima__c</field>
@@ -23,15 +58,66 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Manifestazione__c.Data_Fine__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Manifestazione__c.Data_Inizio__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Manifestazione__c.Luogo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Relatore__c.Nome__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Cliente__c-Layout Cliente</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Conferenza__c-Layout Conferenza</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Iscritto__c-Layout Iscritto</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Luogo__c-Layout Luogo</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Manifestazione__c-Layout Manifestazione</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Relatore__c-Layout Relatore</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>Cliente__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Conferenza__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Iscritto__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Luogo__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Manifestazione__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Relatore__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
