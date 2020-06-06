@@ -10,12 +10,12 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Conference</label>
     <navType>Standard</navType>
-    <tabs>Cliente__c</tabs>
     <tabs>Conferenza__c</tabs>
     <tabs>Manifestazione__c</tabs>
     <tabs>Relatore__c</tabs>
     <tabs>Luogo__c</tabs>
     <tabs>Iscritto__c</tabs>
+    <tabs>Mappa</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Conference_UtilityBar</utilityBar>
 </CustomApplication>

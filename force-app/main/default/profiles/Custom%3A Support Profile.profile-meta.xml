@@ -5,6 +5,14 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>AccountSearchController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>FindPosition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -18,17 +26,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Conferenza__c.Indirizzo__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Conferenza__c.Nome_Relatore__c</field>
+        <field>Conferenza__c.Luogo__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Conferenza__c.Numero_Iscritti__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Conferenza__c.Relatore__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -43,17 +51,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Luogo__c.City__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Luogo__c.Indirizzo__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Luogo__c.Nome__c</field>
+        <field>Luogo__c.Stanza__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Luogo__c.Stanza__c</field>
+        <field>Luogo__c.Stato__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Manifestazione__c.Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -71,14 +89,6 @@
         <field>Manifestazione__c.Luogo__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Relatore__c.Nome__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>Cliente__c-Layout Cliente</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>Conferenza__c-Layout Conferenza</layout>
     </layoutAssignments>
@@ -95,10 +105,6 @@
         <layout>Relatore__c-Layout Relatore</layout>
     </layoutAssignments>
     <tabVisibilities>
-        <tab>Cliente__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Conferenza__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -112,6 +118,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Manifestazione__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Mappa</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

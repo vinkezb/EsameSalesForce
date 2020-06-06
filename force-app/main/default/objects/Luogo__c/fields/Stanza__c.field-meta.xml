@@ -3,7 +3,7 @@
     <fullName>Stanza__c</fullName>
     <externalId>false</externalId>
     <label>Stanza</label>
-    <length>1</length>
+    <length>50</length>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>
